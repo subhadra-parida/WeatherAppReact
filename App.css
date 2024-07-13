@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right,blue, skyblue, blue);
+
+}
+
+h1 {
+  color: black;
+}
+
+/* Input Wrapper Styles */
+.input-wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-wrapper button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+/* Content Styles */
+.content {
+  height: 90vh;
+  background-color: rgb(229, 221, 221);
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.location {
+  margin-left: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.location h2 {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.location span {
+  font-size: 18px;
+  color: black;
+}
+
+.datetext {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.weatherdescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weatherdescription img {
+  width: 100px;
+  height: 100px;
+}
+
+.weatherdescription h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.temp h1 {
+  font-size: 48px;
+  color: black;
+}
+
+.temp h3 {
+  font-size: 24px;
+  color: black;
+}
+
+.windstats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.windstats h3 {
+  margin-left: 10px;
+  font-size: 18px;
+  color: black;
+}
+
+/* No Data Found Styles */
+.content h4 {
+  color: black;
+  font-size: 20px;
+}
